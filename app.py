@@ -1,17 +1,10 @@
+
 import nltk
 import os
-import nltk
 
-# Ensure required data is available
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
-
-try:
-    nltk.data.find('corpora/stopwords')
-except LookupError:
-    nltk.download('stopwords')
+# Safe NLTK setup
+nltk.download('punkt')
+nltk.download('stopwords')
 
 nltk_data_path = "/opt/render/nltk_data"
 
