@@ -20,4 +20,4 @@ jobs:
             docker pull challanaveen409/sms-spam-classifier:latest
             docker stop sms-app || true
             docker rm sms-app || true
-            docker run -d -p 80:8501 --name sms-app challanaveen409/sms-spam-classifier:latest
+            docker run -d -p 8080:8501 --name sms-app challanaveen409/sms-spam-classifier:latest
