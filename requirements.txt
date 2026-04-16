@@ -3,5 +3,5 @@ numpy
 pandas
 streamlit
 scikit-learn
-nltk
+nltk==3.8.1
 pytest
