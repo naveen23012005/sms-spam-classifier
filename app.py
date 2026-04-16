@@ -20,9 +20,6 @@ if not os.path.exists(nltk_data_path):
 
 nltk.data.path.append(nltk_data_path)
 
-# Download required resources
-nltk.download('punkt', download_dir=nltk_data_path)
-nltk.download('stopwords', download_dir=nltk_data_path)
 import streamlit as st
 import pickle
 import string
