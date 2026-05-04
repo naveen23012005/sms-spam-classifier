@@ -16,8 +16,9 @@ A Machine Learning web application that classifies SMS messages as **Spam** or *
 - Streamlit
 - Scikit-learn
 - NLTK
-- Render (Deployment)
-
+- AWS
+- DOCKERS
+- CICD
 ---
 
 
